@@ -1,0 +1,31 @@
+var appPort = 3061;
+var appSSLPort = 3067;
+var appIPAddress = '192.168.4.41';
+var siteUrl = 'http://'+appIPAddress+':'+appPort;
+var superAdminUrl = 'http://'+appIPAddress+':'+appPort+'/admin';
+
+var databaseConfig = {
+	"username": "root",
+    "password": "password",
+    "database": "iotctms",
+    "host": "localhost",
+    "dialect": "mysql",
+    "port": "3306"
+};
+
+module.exports = {
+	mqttUrl: 'mqtt://192.168.4.41',
+	DBPrefix: 'softwebo_',
+	cassandraContactPoint: '192.168.4.41',
+	cassandraContactDBUserName: 'admin',
+	cassandraContactDBPassword: 'admin',
+	cassandraDbBinPath: '~/Desktop/apache-cassandra-3.7/bin/',
+	appPort: appPort,
+	appSSLPort: appSSLPort,
+	appIPAddress: appIPAddress,
+	siteUrl: siteUrl,
+	superAdminUrl: superAdminUrl,
+	databaseConfig: databaseConfig,
+	adminEmailID: 'kaustubh.mishra@softwebsolutions.com',
+	tempEmailID: 'kaustubh.mishra@softwebsolutions.com'
+}

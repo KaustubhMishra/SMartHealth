@@ -1,0 +1,32 @@
+/***************Login css Start*******************/
+
+.loginbg { background:url(../img/login-bg.jpg) no-repeat center; background-size:cover; height: 100vh;}
+.sign-box { background: #0282c3 none repeat scroll 0 0; border: 0 none; margin-top: 50px; max-width: 600px; padding: 50px 50px 30px;}
+.sign-box .sign-logo{ width:100%; text-align:center}
+.sign-box .sign-logo img { max-width:100%;}
+/*.sign-box .sign-logo img{ max-width:152px;}*/
+.sign-box .sign-title { color: #cbdeee; font-size: 21px; margin-bottom: 30px; margin-top: 40px;}
+.sign-box .form-group{ margin-bottom:25px;}
+.sign-box .form-label{ color:#717171; font-size:16px;}
+.sign-box .form-control{ padding:18px;}
+.sign-box .forgot { font-size:16px; margin-top:10px; color:#00a8ff; position: absolute; right: 0; top:0;}
+.sign-box .forgot a { color:#fff; text-decoration:underline}
+.sign-box .forgot a:hover { text-decoration:none;}
+.sign-box .buttonpart{ border-top:solid 1px #c5d6de; margin:0 -30px; padding:25px 15px;}
+.sign-box .btn { background: #142229 none repeat scroll 0 0; border: medium none; border-radius: 0; font-size: 24px; margin: 0; padding: 18px; text-transform: uppercase; width: 100%; border-bottom:solid 4px #000101;}
+.sign-box .btn:hover { background:#253640;}
+.sign-box .checkbox label{ color:#ffffff; font-size:16px;}
+.sign-box .checkbox input + label::before{ border:solid 1px #c2c2c2; width:19px; height:19px;}
+.sign-box .checkbox input:checked + label::before{border:solid 1px #c2c2c2;}
+.sign-box .checkbox input:checked + label::after{ color:#ffffff; width:19px; height:19px; line-height:19px;}
+.sign-box .google-bt{ background:#4285f4; color:#ffffff}
+.sign-box .google-bt i{ margin-right:5px;}
+
+.logininput .form-control { background: rgba(0, 0, 0, 0) none repeat scroll 0 0; border:none; color:#fff !important; border-bottom: 1px solid #4ea8d5; border-radius: 0;  font-size: 27px; padding-top: 5px; padding-left: 56px !important;}
+.logininput .form-control::placeholder { color: #a4c7e2 !important; opacity: 1;}
+.logininput *::-moz-placeholder { color: #a4c7e2 !important; opacity: 1;}
+.logininput .form-control.password { padding-right:150px; }
+
+.loginbg .softweblogo { margin: 40px 0; text-align: center;}
+
+

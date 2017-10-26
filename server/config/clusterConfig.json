@@ -1,0 +1,6 @@
+{
+    "numWorkers": 1,
+    "restartWorkers": false,
+    "getWorkerList": false,
+    "getWorkerCount": false
+}
